@@ -34,18 +34,26 @@ Follow these steps to set up your environment and install Menafi:
    pip install -r requirements.txt
    ```
 
-  Setup the Network interface
-   ```bash
+     Setup the Network interface
+      ```bash
      sudo ip link set <interface> down
      sudo iw dev <interface> set type monitor
      sudo ip link set <interface> up
-   ```
+      ```
 
-  Update the script to match you interface
-  ```bash
+     Update the script to match you interface
+     ```bash
     line 73
       interface = "your-interface"  # Your new USB Wi-Fi interface
-  ```
+     ```
 
+     Finally
+      ```bash
+      python3 menafi.py
+      ```
 
+3. **Usage**
+   When the scanner runs there are two things to keep in mind
+   - A log.txt file will be created to keep track of all your SSIDs
+   - There is a 10 sec wait, this is so you can stop and pull over to get a good scan of the area , then move on
    
