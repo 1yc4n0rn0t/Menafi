@@ -1,5 +1,9 @@
 # Menafi
-Yet another Wifi war-driving scanner
+
+<p align="center">
+  <img src="https://github.com/1yc4n0rn0t/Menafi/blob/main/elf.png" alt="Image" style="height: 350px; vertical-align: middle; margin-left: 10px;" />
+</p>
+
 ______________________________________
 
 # Menafi - WiFi Scanner for Wardriving
