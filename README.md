@@ -43,7 +43,8 @@ Follow these steps to set up your environment and install Menafi:
 
   Update the script to match you interface
   ```bash
-    line 0
+    line 73
+      interface = "your-interface"  # Your new USB Wi-Fi interface
   ```
 
 
